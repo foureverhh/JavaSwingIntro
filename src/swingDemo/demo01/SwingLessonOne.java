@@ -40,6 +40,13 @@ public class SwingLessonOne extends JFrame{
         button1.setToolTipText("This is a button.");
         thePanel.add(button1);
 
+        //JTextField
+        JTextField textField1 = new JTextField("Type here", 15);
+        textField1.setColumns(10);
+        textField1.setText("Type");
+        textField1.setToolTipText("Type something in pls");
+        thePanel.add(textField1);
+
         this.add(thePanel);
         this.show();
 
