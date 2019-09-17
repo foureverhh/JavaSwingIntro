@@ -47,7 +47,22 @@ public class SwingLessonOne extends JFrame{
         textField1.setToolTipText("Type something in pls");
         thePanel.add(textField1);
 
+        //JTextArea
+        JTextArea textArea1 = new JTextArea(15,20);
+        textArea1.setText("Just a whole bunch of text that is important.\n");
+        textArea1.setLineWrap(true);
+
+        textArea1.setWrapStyleWord(true);
+        int numOfLines = textArea1.getLineCount();
+        textArea1.append("number of lines "+numOfLines);
+
+        JScrollPane scrollbar1 = new JScrollPane(textArea1
+                ,JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED
+                ,JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        thePanel.add(scrollbar1);
         this.add(thePanel);
+        //textField1.requestFocus();
+        textArea1.requestFocus();
         this.show();
 
     }
