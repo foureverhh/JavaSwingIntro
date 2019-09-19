@@ -1,4 +1,4 @@
-package swingDemo.demo03;
+package swingDemo.demo03_jlist;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

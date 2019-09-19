@@ -14,7 +14,7 @@ public class SwingLesson01 extends JFrame {
         new SwingLesson01();
     }
 
-    public SwingLesson01(){
+    private SwingLesson01(){
         this.setSize(400,400);
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension dimension = toolkit.getScreenSize();
