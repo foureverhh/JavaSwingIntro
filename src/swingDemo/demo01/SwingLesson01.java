@@ -1,22 +1,20 @@
-package swingDemo.demo02;
-
-import swingDemo.demo01.SwingLessonOne;
+package swingDemo.demo01;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class SwingLessonTwo extends JFrame {
+public class SwingLesson01 extends JFrame {
     JButton button1;
     JTextField textField1;
     JTextArea textArea1;
     int buttonClicked;
 
     public static void main(String[] args) {
-        new SwingLessonTwo();
+        new SwingLesson01();
     }
 
-    public SwingLessonTwo(){
+    public SwingLesson01(){
         this.setSize(400,400);
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension dimension = toolkit.getScreenSize();

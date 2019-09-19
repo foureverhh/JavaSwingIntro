@@ -1,16 +1,16 @@
-package swingDemo.demo01;
+package swingDemo.demo;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import javax.swing.*;
 
-public class SwingLessonOne extends JFrame{
+public class SwingLesson extends JFrame{
 
     public static void main(String[] args) {
-        new SwingLessonOne();
+        new SwingLesson();
     }
 
-    public SwingLessonOne(){
+    public SwingLesson(){
         this.setSize(400,400);
         Toolkit tk = Toolkit.getDefaultToolkit();
         Dimension dimension = tk.getScreenSize();
